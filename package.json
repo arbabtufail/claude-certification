@@ -1,0 +1,41 @@
+{
+  "name": "claude-course-preparations",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude Course Preparations: hands-on practice for Claude courses (Claude Platform 101, Building with the Claude API)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lesson2": "node --env-file=.env.local scripts/claude-platform-101/lesson-02-review.mts",
+    "lesson3": "node --env-file=.env.local scripts/claude-platform-101/lesson-03-compare-models.mts",
+    "lesson4": "node --env-file=.env.local scripts/claude-platform-101/lesson-04-agent-loop.mts",
+    "lesson5": "node --env-file=.env.local scripts/claude-platform-101/lesson-05-tool-runner.mts",
+    "lesson6": "node --env-file=.env.local scripts/claude-platform-101/lesson-06-thinking.mts",
+    "lesson7": "node --env-file=.env.local scripts/claude-platform-101/lesson-07-built-in-tools.mts",
+    "lesson8": "node --env-file=.env.local scripts/claude-platform-101/lesson-08-skills.mts",
+    "lesson9": "node --env-file=.env.local scripts/claude-platform-101/lesson-09-mcp.mts",
+    "lesson10": "node --env-file=.env.local scripts/claude-platform-101/lesson-10-context.mts",
+    "lesson11": "node --env-file=.env.local scripts/claude-platform-101/lesson-11-managed-agent.mts",
+    "lesson12": "node --env-file=.env.local scripts/claude-platform-101/lesson-12-first-managed-agent.mts",
+    "api-lesson3": "node --env-file=.env.local scripts/building-with-the-claude-api/lesson-03-making-a-request.mts",
+    "api-lesson4": "node --env-file=.env.local scripts/building-with-the-claude-api/lesson-04-multi-turn.mts",
+    "api-lesson5": "node --env-file=.env.local scripts/building-with-the-claude-api/lesson-05-system-prompts.mts",
+    "api-lesson6": "node --env-file=.env.local scripts/building-with-the-claude-api/lesson-06-temperature.mts",
+    "api-lesson7": "node --env-file=.env.local scripts/building-with-the-claude-api/lesson-07-streaming.mts",
+    "api-lesson8": "node --env-file=.env.local scripts/building-with-the-claude-api/lesson-08-structured-data.mts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
